@@ -1,0 +1,336 @@
+h1{
+font:  bold 55px Verdana, sans-serif;
+letter-spacing: -1pt;
+
+text-align: center;
+padding: 300px 100px 10px;
+-webkit-text-stroke: 2px black;
+}
+
+a{
+text-decoration: none;
+}
+p{
+font:  15px Verdana, sans-serif;
+padding: 10px 40px;
+}
+
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+#in1{
+height: 700px;
+background-image: url("imagenes/inde.jpg");
+background-size: cover;
+margin: 10px 0px;
+
+}
+#in2{
+height: 700px;
+background-image: url("imagenes/2002.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#in3{
+height: 700px;
+background-image: url("imagenes/2006.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#in4{
+height: 700px;
+background-image: url("imagenes/2010.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#in5{
+height: 700px;
+background-image: url("imagenes/2014.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#in6{
+height: 700px;
+background-image: url("imagenes/2018.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#in7{
+height: 700px;
+background-image: url("imagenes/2022.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#in8{
+height: 700px;
+background-image: url("imagenes/mundiales.jpg");
+background-size: cover;
+margin: 10px 6px;
+}
+#cajaestadios1 {
+display: flex;
+width: auto;
+height: 1400px;
+
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+
+}
+#cajaestadios {
+margin: 10px 6px;
+display: flex;
+width: auto;
+height: 800px;
+
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+background-image: url("imagenes/es.jpg");
+
+}
+#cajaestadios1 {
+background-image: url("imagenes/es.jpg");
+margin: 10px 6px;
+}
+
+#cajaestadios > div {
+height: 120px;
+padding: 10px;
+margin: 5px;
+line-height: 20pt;
+background-color: hsla(0, 0%, 0%,.30);
+text-align: center
+
+
+}
+#cajaestadios1 > div {
+height: 118px;
+padding: 11px;
+margin: 6px;
+background-color: hsla(0, 0%, 0%,.30);
+
+
+text-align: center
+
+}
+
+
+
+#cajatitulo {
+
+width: 1300px;
+}
+#cajapais {
+
+width: 1300px;
+}
+#cajapais2 {
+
+width: 1300px;
+}
+
+
+
+
+#caja1 {
+width: 300px;
+}
+#caja2 {
+width: 300px;
+}
+#caja3 {
+width: 300px;
+}
+#caja4 {
+width: 300px;
+}
+#caja5 {
+width: 300px;
+}
+#caja6 {
+width: 300px;
+}
+#caja7 {
+width: 300px;
+}
+#caja8 {
+width: 300px;
+}
+#caja9 {
+width: 300px;
+}
+#caja10 {
+width: 300px;
+}
+#caja11 {
+width: 300px;
+}
+#caja12 {
+width: 300px;
+}
+#caja13 {
+width: 300px;
+}
+#caja14 {
+width: 300px;
+}
+#caja15 {
+width: 300px;
+}
+#caja16 {
+width: 300px;
+}
+#caja17 {
+width: 300px;
+}
+#caja18 {
+width: 300px;
+}
+#caja19 {
+width: 300px;
+}
+#caja20 {
+width: 300px;
+}
+
+h4{
+font: bold 50px Verdana, sans-serif;
+-webkit-text-stroke: 2px black;
+color: #ffffff;
+}
+h2{
+font: bold 55px Verdana, sans-serif;
+color: #ffffff;
+-webkit-text-stroke: 2.2px black;
+}
+h3{
+font: bold 33px Verdana, sans-serif;
+color: #0000cc;
+-webkit-text-stroke: 1.5px black;
+}
+#cajaestadios1 > div > p {
+font: bold 15px Verdana, sans-serif;
+color: #ffffff;
+
+}
+#cajaestadios > div > p {
+font: bold 15px Verdana, sans-serif;
+color: #ffffff;
+
+}
+
+#foot {
+background-color: #CCCCCC;
+
+height: 80px;
+text-align: center;
+font: bold 15px Verdana, sans-serif;
+margin: 10px 6px;
+padding: 50px 10px 0px;
+}
+#cabeza {
+padding: 20px 10px 0px;
+
+text-align: center;
+font:  15px Verdana, sans-serif;
+color: #FFFFFF;
+position: fixed;
+background-color: hsla(0, 0%, 0%,.79);
+width: 100%;
+height: 40px;
+}
+
+nav > a{
+color: #FFFFFF;
+}
+#s4 {
+background-image: url("imagenes/pre.jpg");
+height: 700px;
+margin: 10px 6px;
+}
+#s1 {
+background-image: url("imagenes/pai.jpg");
+height: 800px;
+margin: 10px 6px;
+}
+#s2 {
+background-image: url("imagenes/clas.jpg");
+height: 800px;
+margin: 10px 6px;
+}
+#s3 {
+background-image: url("imagenes/gol.jpg");
+height: 800px;
+margin: 10px 6px;
+}
+#foot {
+background-image: url("imagenes/pie.jpg");
+
+}
+#en {
+background-image: url("imagenes/en.jpg");
+background-size: cover;
+height: 920px;
+margin: 10px 6px;
+}
+figure {
+padding: 60px 260px;
+}
+#a1 {
+background-image: url("imagenes/a1.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#a2 {
+background-image: url("imagenes/a2.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#a3 {
+background-image: url("imagenes/a3.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#a4 {
+background-image: url("imagenes/a4.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#a5 {
+background-image: url("imagenes/a5.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#a6 {
+background-image: url("imagenes/a6.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#a7 {
+background-image: url("imagenes/a7.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#b1 {
+background-image: url("imagenes/doha.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
+#b2 {
+background-image: url("imagenes/mundi.jpg");
+background-size: cover;
+height: 800px;
+margin: 10px 0px;
+}
