@@ -89,11 +89,11 @@ height: 800px;
 flex-wrap: wrap;
 justify-content: center;
 align-content: center;
-background-image: url("imagenes/es.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/es.jpg);
 
 }
 #cajaestadios1 {
-background-image: url("imagenes/es.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/es.jpg);
 margin: 10px 6px;
 }
 
@@ -248,31 +248,31 @@ nav > a{
 color: #FFFFFF;
 }
 #s4 {
-background-image: url("imagenes/pre.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/pre.jpg);
 height: 700px;
 margin: 10px 6px;
 }
 #s1 {
-background-image: url("imagenes/pai.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/pai.jpg);
 height: 800px;
 margin: 10px 6px;
 }
 #s2 {
-background-image: url("imagenes/clas.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/clas.jpg);
 height: 800px;
 margin: 10px 6px;
 }
 #s3 {
-background-image: url("imagenes/gol.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/gol.jpg);
 height: 800px;
 margin: 10px 6px;
 }
 #foot {
-background-image: url("imagenes/pie.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/pie.jpg);
 
 }
 #en {
-background-image: url("imagenes/en.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/en.jpg);
 background-size: cover;
 height: 920px;
 margin: 10px 6px;
@@ -281,55 +281,55 @@ figure {
 padding: 60px 260px;
 }
 #a1 {
-background-image: url("imagenes/a1.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a1.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #a2 {
-background-image: url("imagenes/a2.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a2.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #a3 {
-background-image: url("imagenes/a3.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a3.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #a4 {
-background-image: url("imagenes/a4.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a4.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #a5 {
-background-image: url("imagenes/a5.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a5.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #a6 {
-background-image: url("imagenes/a6.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a6.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #a7 {
-background-image: url("imagenes/a7.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/a7.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #b1 {
-background-image: url("imagenes/doha.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/doha.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
 }
 #b2 {
-background-image: url("imagenes/mundi.jpg");
+background-image: url(https://jhonpoligran.github.io/FrontEnd/Imagenes/mundi.jpg);
 background-size: cover;
 height: 800px;
 margin: 10px 0px;
