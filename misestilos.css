@@ -23,14 +23,14 @@ padding: 0px;
 
 #in1{
 height: 700px;
-background-image: url("FrontEnd/Imagenes/inde.jpg");;
+background-image: url("../imagenes/inde.jpg");
 background-size: cover;
 margin: 10px 0px;
 
 }
 #in2{
 height: 700px;
-background-image: url("imagenes/2002.jpg");
+background-image: url("../imagenes/2002.jpg");
 background-size: cover;
 margin: 10px 6px;
 }
