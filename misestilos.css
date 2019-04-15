@@ -23,7 +23,7 @@ padding: 0px;
 
 #in1{
 height: 700px;
-background-image: url("FrontEnd/Imagenes/inde.jpg");;
+background-image:img src="Imagenes/inde.jpg";
 background-size: cover;
 margin: 10px 0px;
 
