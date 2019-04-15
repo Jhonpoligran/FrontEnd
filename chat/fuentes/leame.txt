@@ -1,0 +1,46 @@
+HISTORIA DE LOS MUNDIALES
+
+
+
+
+- Para compilar (*) se ejecuta desde consola:
+
+	>> make
+
+
+- Para ejecutar:
+
+	1.-	Ejecute desde consola
+
+		>>make run
+
+		- En donde se ejecuta y se abre la ventana princpal, con numero de puerto 3000
+
+
+		Donde 3000 es el puerto que será asignado para atender
+		las peticiones de conexión de Pcs remotos.
+
+		Si ese puerto está ocupado para otro proceso, se puede introducir directamente 
+		el comando desde consola sin ultilizar el make,después de la compilación con:
+
+		>>java Chat PuertoServidor
+
+		PuertoServidor: Numero que se ingresará dentro del rango a usar que esté disponible.
+
+	2.-	Una vez abierta la ventana, ésta se encuentra inactiva.
+
+		Para la conexión con otro pC, se necesita saber previamente el IP y 
+		el puerto del otro PC remoto, para establecer la conexión,
+
+		Para cerrar el programa primero se debe ir al menu y hacer click en desconectar,
+		para luego cerrar las ventanas.
+	
+		
+
+
+- Para eliminar los archivos .class
+
+	>>make clean
+
+
+	

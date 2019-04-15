@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>HISTORIA DE LOS MUNDIALES</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000">
+<p align="center"><font color="#FFFFFF" size="6" face="Courier New, Courier, mono">Proyecto 
+  Java</font></p>
+<p align="center"><font color="#FFFFFF" size="6" face="Courier New, Courier, mono"><a href="https://jhonpoligran.github.io/FrontEnd/index.html">JAVA 
+  CHAT</a></font></p>
+<p align="center"><font color="#FFFFFF" size="6" face="Courier New, Courier, mono">;o 
+  POLITECNICO GRAN COLOMBIA INGENIERIA DE SOFTWARE</font></p>
+<p align="center"><img src="javachat.JPG" width="326" height="281"></p>
+<p align="center"><font color="#FFFFFF" face="Courier New, Courier, mono">INTEGRANTES:</font></p>
+<p align="center"><font color="#FFFFFF" face="Courier New, Courier, mono">JULIAN  FELIPE RODRIGUEZ AGUILAR ;os<br>
+  -K<br>
+   AT elo DOT utfsm DOT cl</font></p>
+<p align="center"><font color="#FFFFFF" face="Courier New, Courier, mono"><br>
+  <br>
+  2021018-4<br>
+  rorellar AT elo DOT utfsm DOT cl</font></p>
+<p align="center">&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">DESCRIPCI&Oacute;N:</font></p>
+<p align="justify"><font color="#FFFFFF" face="Courier New, Courier, mono">Nos 
+  enfrentamos a un problema basado en la necesidad de comunicarnos en red cuando alguien visita nuestra pagina y necesita mas informacion, para 
+  ello se implement&oacute; una soluci&oacute;n bastante simple que nos permite 
+  establecer una conexi&oacute;n directa entre 2 computadores (PCS), a trav&eacute;s 
+  de la IP y de un puerto para establecer una conexi&oacute;n directa.</font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">REQUERIMIENTOS:</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"> -&iquest;Problemas 
+  con el msn en red ELO, puertos bloqueados?<br>
+  Debido a esto surge la idea de crear una herramienta<br>
+  que sirva para realizar nuestras conversaciones a trav&eacute;s de la red.</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"><br>
+  - Puede correr en Windows, Linux, mac?<br>
+  Comunicaci&oacute;n independiente de la plataforma<br>
+  -Interfaz amigable que permita ver nuestrtos mensajes<br>
+  enviados y los que nos envian. </font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">DESARROLLO:</font></p>
+<p align="justify"><font color="#FFFFFF" face="Courier New, Courier, mono">Creamos 
+  una ventana para hacer un Chat y desde este se lanza un hilo que nos permite 
+  atender las llamadas entrantes<br>
+  podemos crear tantos servidores como ventanas quisieramos.<br>
+  Para conectarnos a otro PC (el cual se comporta como cliente y servidor) .</font></p>
+<p align="justify"><font color="#FFFFFF" face="Courier New, Courier, mono"><br>
+  Lo hacemos desde la ventana de un servidor, colocando su ip y su puerto. Entonces 
+  tenemos dos hilos que manejan al servidor y al cliente al mismo tiempo, es la 
+  idea de paralelismo.<br>
+  Una vez que hemos establecido la conexi&oacute;n estamos en condiciones de enviar 
+  y recibir mensajes.</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"><br>
+  Para terminar la conversaci&oacute;n se detiene el hilo del cliente o lector 
+  y se indica que no hay conexi&oacute;n con ese lector.</font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">CASOS DE USO:</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono">INICIAR CONVERSACI&Oacute;N 
+  SIMPLE<br>
+  -ACTOR: personaje1<br>
+  -Descripci&oacute;n: personaje1 inicia una espera como servidor.<br>
+  -El sistema responde desplegando una aplicacion que muestra que ha iniciado.<br>
+  -personaje 2 se conecta a la ip y puerto del personaje1.<br>
+  -El sistema muestra al personaje1 que esta conctado al personaje2 y viceversa.<br>
+  -El personaje1 escribe mensaje al personaje2.<br>
+  -El sistema muestra al personaje2 el mensaje escrito por el personaje1.<br>
+  -El personaje2 responde.<br>
+  -El sistema muestrtra la respuesta al personaje1.</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"><br>
+  CONVERSACI&Oacute;N CON DISTINTOS USUARIOS<br>
+  -Actor1: personaje1<br>
+  -Actor2: personaje2<br>
+  -Actor3: personaje3<br>
+  -Descripci&oacute;n: personaje 1 inicia como servidor<br>
+  -El sistema muestra que inicio el personaje1<br>
+  -Personaje2 inicia como servidor y se conecta a la ip y puerto del personaje1.<br>
+  -Sistema muestra a los personajes 2 y1 que estan conectados.<br>
+  -Personaje3 inicia como servidor y se conecta a la ip y puerto del personaje1.<br>
+  -Sistema muestra a los personajes 3 y 1 que estan conectados.<br>
+  -personajes 2 y 3 responden a los mensajes del personaje 1. </font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">TEST:</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"> -1&ordm; Se ejecut&oacute; 
+  el programa solamente en un PC, medianto la consola, ultilizando el procedimiento 
+  descrito en la p&aacute;gina, estableciendo una conexi&oacute;n as&iacute; mismo, 
+  esto result&oacute; satisfactorio, puesto que el programa trabaja con hilos, 
+  los cuales hacen que sean independientes.-2&ordm; lo probamos en dos PCS dentro 
+  del mismo sistema operativo Windows 2000, estableciendo la conexi&oacute;n para 
+  cada uno de los PCS, al introducir su ip y puerto remoto, resultando nuevamente 
+  exitoso, vale decir, que para logar el &eacute;xito se tuvo que estar iterando 
+  en muchas ocasiones, para llegar al resultado final.</font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">Procedimiento:</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"> Se intent&oacute; 
+  ejecutar el programa una vez compilado desde consola DOS dentro de la plataforma 
+  Windows 2000 Pro, con el comando:<br>
+  &gt;&gt; java Chat 25555<br>
+  Donde 25555 es el puerto que se asigna al servidor, el cual queda listo para 
+  las peticiones desde los clientes, una vez iniciado el proceso, se abre una 
+  ventana la cual est&aacute; inactiva, pues todav&iacute;a no se ha realizado 
+  una conexi&oacute;n, para esto se va al men&uacute; dentro de Nueva Conexi&oacute;n, 
+  estableciendo el IP Remoto y el puerto del servidor remoto, para luego establecer 
+  la conexi&oacute;n.</font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono">DIAGRAMA:</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono">Nuestro diagrama tiene 
+  su inicio en la clase Chat la cual al ejecutarla genera un hilo para el servidor 
+  creando una ventana para alojar la conversaci&oacute;n, desde la ventana podemos 
+  interactuar <br>
+  con el lector a atraves de una conexi&oacute;n, una vez hecha la conexion el 
+  hilo lector puede directamente contactarse con el mensaje a atraves de la ventana 
+  y el servidor puede leer sus <br>
+  mensajesa trav&eacute;s de la conexi&oacute;n establecida.<br>
+  A traves de la ventana podemos detener el hilo del lector se cierra la conexi&oacute;n 
+  y ya no se puedenenviar mensaje.</font></p>
+<p align="center"><font color="#FFFFFF" face="Courier New, Courier, mono"><img src="diagramaUML.JPG" width="777" height="379"></font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">DOCUMENTACI&Oacute;N:</font></p>
+<p><font color="#FFFFFF" size="4" face="Courier New, Courier, mono">Documentaci&oacute;n 
+  de las</font><font color="#000099" size="4" face="Courier New, Courier, mono"> 
+  <a href="">clases utilizadas</a></font></p>
+<p>&nbsp;</p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono">REFERENCIAS:</font></p>
+<p><font color="#FFFFFF" face="Courier New, Courier, mono"><a href="https://jhonpoligran.github.io/FrontEnd/index.html/chat/">/chat/index.html</a></font></p>
+<p><font color="#FFFFFF">http://java.sun.com/j2se/1.5.0/docs/api/java/net/Socket.html<br>
+ </font></p>
+<p>&nbsp;</p>
+</body>
+</html>
